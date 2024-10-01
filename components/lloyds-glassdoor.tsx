@@ -3,10 +3,10 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Textarea } from "@/components/ui/textarea"
-import { Building2, CreditCard, MapPin, Smartphone, Star, ThumbsUp, User } from "lucide-react"
+import { MapPin, Star, User } from "lucide-react"
 
 const dummyData = {
   companyInfo: {
